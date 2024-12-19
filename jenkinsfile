@@ -1,6 +1,6 @@
 pipeline {
     agent {
- label 'master-server'
+node label 'master-server'
 }
 environment {
 registory = 'redhatrajat/rajatdockerimage'
