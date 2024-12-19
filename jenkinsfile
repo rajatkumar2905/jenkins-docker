@@ -3,7 +3,7 @@ pipeline {
 node  { label 'master-server'}
 }
 environment {
-registory = 'redhatrajat/rajatdockerimage'
+registry = 'redhatrajat/rajatdockerimage'
 registryCredential = 'dockerhub'
 }
     stages {
