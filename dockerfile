@@ -1,3 +1,3 @@
-FROM lovelearnlinux/webserver:v2
+FROM nginx:latest
 MAINTAINER Rajat kumar
-COPY index.html /var/www/html/index.html
+COPY index.html /usr/share/nginx/html/index.html
