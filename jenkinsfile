@@ -30,7 +30,7 @@ dockerImage.push()
         }
   stage('Run docker container on Jenkins Agent') {
             steps {
- sh "docker run -d $registry:$BUILD_NUMBER"
+ sh "docker run -d --name $registry:$BUILD_NUMBER"
             }
         }
     }
